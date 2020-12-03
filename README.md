@@ -16,6 +16,7 @@ Tarefas
 
 Com a seguinte representação de produto:
 
+```
 {
     "sku": 43264,
     "name": "L'Oréal Professionnel Expert Absolut Repair Cortex Lipidium - Máscara de Reconstrução 500g",
@@ -36,6 +37,7 @@ Com a seguinte representação de produto:
     },
     "isMarketable": true
 }
+```
 
 #### Crie endpoints para as seguintes ações:
 
