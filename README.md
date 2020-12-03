@@ -37,7 +37,7 @@ Com a seguinte representação de produto:
     "isMarketable": true
 }
 
-#### H4 Crie endpoints para as seguintes ações:
+#### Crie endpoints para as seguintes ações:
 
 > Criação de produto onde o payload será o json informado acima (exceto as propriedades isMarketable e inventory.quantity)
 
@@ -47,7 +47,7 @@ Com a seguinte representação de produto:
 
 > Deleção de produto por sku
 
-#### H4 Requisitos
+#### Requisitos
 
 > Toda vez que um produto for recuperado por sku deverá ser calculado a propriedade: inventory.quantity
 
