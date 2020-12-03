@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{8290D84B-B590-4BE4-A179-D8C81B78010D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0BBE0C7B-50B4-4022-A73C-FAD3FB846EF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrunoTragl.TesteGrupoBoticario.Domain.Model", "BrunoTragl.TesteGrupoBoticario.Domain.Model\BrunoTragl.TesteGrupoBoticario.Domain.Model.csproj", "{E5D280F2-2E0E-4C59-BA94-0BEF2E929B83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrunoTragl.TesteGrupoBoticario.Domain.Services", "BrunoTragl.TesteGrupoBoticario.Domain.Services\BrunoTragl.TesteGrupoBoticario.Domain.Services.csproj", "{92A147F7-E23E-4FFB-95EB-61AB7B68E0F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{CEEA67F9-21A2-4166-8962-A28A63C88485}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrunoTragl.TesteGrupoBoticario.Infra.Repository", "BrunoTragl.TesteGrupoBoticario.Infra.Reposity\BrunoTragl.TesteGrupoBoticario.Infra.Repository.csproj", "{F3B8D2B5-BAD2-41FB-A21A-4CE8CE80DF99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrunoTragl.TesteGrupoBoticario.Infra.Data", "BrunoTragl.TesteGrupoBoticario.Infra.Data\BrunoTragl.TesteGrupoBoticario.Infra.Data.csproj", "{7161B236-ED60-4D51-A5C4-B18355AB50DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunoTragl.TesteGrupoBoticario.Web.WebApi", "BrunoTragl.TesteGrupoBoticario.Web.WebApi2\BrunoTragl.TesteGrupoBoticario.Web.WebApi.csproj", "{59BCB603-5195-4329-85A6-AC1B343F79A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{633846CA-9049-47F3-A9F0-88F87A97A938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunoTragl.TesteGrupoBoticario.Tests.WebApi", "BrunoTragl.TesteGrupoBoticario.Tests.WebApi\BrunoTragl.TesteGrupoBoticario.Tests.WebApi.csproj", "{403E9509-04E4-455E-8FDA-1F62BA520EDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5D280F2-2E0E-4C59-BA94-0BEF2E929B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D280F2-2E0E-4C59-BA94-0BEF2E929B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D280F2-2E0E-4C59-BA94-0BEF2E929B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D280F2-2E0E-4C59-BA94-0BEF2E929B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A147F7-E23E-4FFB-95EB-61AB7B68E0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A147F7-E23E-4FFB-95EB-61AB7B68E0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A147F7-E23E-4FFB-95EB-61AB7B68E0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A147F7-E23E-4FFB-95EB-61AB7B68E0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B8D2B5-BAD2-41FB-A21A-4CE8CE80DF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B8D2B5-BAD2-41FB-A21A-4CE8CE80DF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B8D2B5-BAD2-41FB-A21A-4CE8CE80DF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B8D2B5-BAD2-41FB-A21A-4CE8CE80DF99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7161B236-ED60-4D51-A5C4-B18355AB50DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7161B236-ED60-4D51-A5C4-B18355AB50DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7161B236-ED60-4D51-A5C4-B18355AB50DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7161B236-ED60-4D51-A5C4-B18355AB50DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BCB603-5195-4329-85A6-AC1B343F79A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BCB603-5195-4329-85A6-AC1B343F79A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BCB603-5195-4329-85A6-AC1B343F79A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BCB603-5195-4329-85A6-AC1B343F79A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403E9509-04E4-455E-8FDA-1F62BA520EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403E9509-04E4-455E-8FDA-1F62BA520EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403E9509-04E4-455E-8FDA-1F62BA520EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403E9509-04E4-455E-8FDA-1F62BA520EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5D280F2-2E0E-4C59-BA94-0BEF2E929B83} = {0BBE0C7B-50B4-4022-A73C-FAD3FB846EF3}
+		{92A147F7-E23E-4FFB-95EB-61AB7B68E0F1} = {0BBE0C7B-50B4-4022-A73C-FAD3FB846EF3}
+		{F3B8D2B5-BAD2-41FB-A21A-4CE8CE80DF99} = {CEEA67F9-21A2-4166-8962-A28A63C88485}
+		{7161B236-ED60-4D51-A5C4-B18355AB50DB} = {CEEA67F9-21A2-4166-8962-A28A63C88485}
+		{59BCB603-5195-4329-85A6-AC1B343F79A2} = {8290D84B-B590-4BE4-A179-D8C81B78010D}
+		{403E9509-04E4-455E-8FDA-1F62BA520EDC} = {633846CA-9049-47F3-A9F0-88F87A97A938}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {771332DB-3C04-434E-9A69-F796A0880D28}
+	EndGlobalSection
+EndGlobal
